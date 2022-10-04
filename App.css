@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Helvetica-Bold";
+
+font-style: normal;
+font-weight: 700;
+  src: url("https://fonts.animaapp.com/Helvetica-Bold") format("truetype")
+}
+
+@font-face {
+  font-family: "Helvetica-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://fonts.animaapp.com/Helvetica-Light") format("truetype");
+}
+
+.screen a {
+  display:contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+  
+}
+
+.ipad-pro-11-1{
+  align-items: center;
+  background-color: #f6f2ff;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1194px;
+  padding: 60px 0;
+  width: 960px;
+}
+
+.heading-text{
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: fit-content;
+}
+
+.heading {
+  height: 192px;
+  margin-right: -4px;
+  max-width: 884px;
+}
+
+.overlap-group{
+  height: 194px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 880px;
+}
+
+.imagine-if-had-events{
+  color: #240d57;
+  font-family: 'Helvetica-Bold';
+  font-size: 64px;
+  font-weight: 700;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: 64px;
+  position: absolute;
+  text-align: center;
+  top:0;
+  width: 574px;
+}
+
+.snapchat{
+  --webkit-background-clip: text !important;
+  --webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Helvetica-Bold';
+    font-size: 60px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    text-align: center;
+    text-fill-color: transparent;
+    top:59px;
+    width: 880px;
+}
+
+.easily-host-and-shar {
+  color: #4f4f4f;
+  font-family: 'Helvetica-Light';
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+  width: 521px;
+}
+
+.image-1 {
+  height: 615px;
+  margin-left: 1px;
+  margin-top: 22px;
+  width: 377px;
+}
+
+.button{
+  cursor: pointer;
+  align-items: center;
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+border: 1px none;
+border-radius: 10px;
+display: flex;
+gap: 10px;
+justify-content: center;
+margin-top: 20px;
+padding: 16px;
+width:320px;
+}
+
+.create-my-event{
+  color: #ffffff;
+font-family: 'Helvetica-Bold';
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0;
+margin-top: -1px;
+text-align: right;
+width: fit-content;
+}
